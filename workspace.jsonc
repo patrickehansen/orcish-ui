@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "company.scope"
+    "defaultScope": "tiskahar.orcish"
   },
   /**
    * main configuration for component dependency resolution.
@@ -52,12 +52,23 @@
         "eslint-plugin-jest": "24.4.0",
         "eslint-plugin-jsx-a11y": "6.4.1",
         "eslint-plugin-mdx": "1.15.0",
-        "eslint-plugin-react": "7.25.1"
+        "eslint-plugin-react": "7.25.1",
+        "framer-motion": "5.4.5",
+        "styled-components": "5.3.3",
+        "styled-system": "5.1.5"
       },
       "peerDependencies": {
+        "@fortawesome/fontawesome-svg-core": "1.2.36",
+        "@fortawesome/free-solid-svg-icons": "5.15.4",
+        "@fortawesome/react-fontawesome": "0.1.16",
+        "@teambit/base-ui.theme.theme-provider": "1.0.3",
         "@testing-library/react": "12.0.0",
+        "formik": "2.2.9",
+        "popmotion": "11.0.3",
         "react": "17.0.2",
-        "react-dom": "17.0.2"
+        "react-dom": "17.0.2",
+        "react-is": "17.0.2",
+        "uuid": "8.3.2"
       }
     }
   },
@@ -71,7 +82,7 @@
   "teambit.workspace/variants": {
     "{ui/**}, {pages/**}": {
       // uses the custom env
-      "company.scope/envs/my-react": {}
+      "tiskahar.orcish/envs/my-react": {}
       // uncomment the line below if you remove the custom env and remove the line above
       // "teambit.react/react": {},
     },

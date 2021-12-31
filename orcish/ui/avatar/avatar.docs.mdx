@@ -1,0 +1,32 @@
+---
+description: A Avatar component.
+---
+
+import { Avatar } from './avatar';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme}>
+  <Avatar
+    imgUrl='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0zvbuXrUg4SEY-LQNXDIOnBEu8ITDWHTTQ&usqp=CAU'
+    size="XS"
+    name="Avatar"
+  />
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme}>
+  <Avatar
+    imgUrl='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0zvbuXrUg4SEY-LQNXDIOnBEu8ITDWHTTQ&usqp=CAU'
+    size="XS"
+    name="Avatar"
+  />
+</ThemeProvider>
+```

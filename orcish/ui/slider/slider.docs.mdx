@@ -1,0 +1,32 @@
+---
+description: A Slider component.
+---
+
+import { Slider } from './slider';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme} >
+  <Slider 
+    min={0}
+    max={100}
+    trackLength={10}
+  />
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme} >
+  <Slider 
+    min={0}
+    max={100}
+    trackLength={10}
+  />
+</ThemeProvider>
+```

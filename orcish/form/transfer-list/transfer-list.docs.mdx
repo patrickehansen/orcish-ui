@@ -1,0 +1,42 @@
+---
+description: A TransferList component.
+---
+
+import { TransferList } from './transfer-list';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme} >
+  <TransferList 
+    left={{
+      title: 'Left Items',
+      entries: []
+    }} 
+    right={{
+      title: 'Right Items',
+      entries: []
+    }} 
+  />
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme} >
+  <TransferList 
+    left={{
+      title: 'Left Items',
+      entries: []
+    }} 
+    right={{
+      title: 'Right Items',
+      entries: []
+    }} 
+  />
+</ThemeProvider>
+```

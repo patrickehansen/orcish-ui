@@ -1,0 +1,50 @@
+---
+description: 'Renders a Heading, Text, CopyBox and is linkable'
+labels: ['card']
+---
+
+import { Card } from './card';
+import { H3 } from '@tiskahar/orcish.typography.heading';
+import { P1 } from '@tiskahar/orcish.typography.paragraph';
+import { CopyBox } from '@teambit/documenter.ui.copy-box';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+## Card component
+
+Renders a box with a box shadow, border radius and padding.
+
+### Component usage
+
+Render component with any text, html or other component inside
+
+```js
+<ThemeProvider theme={defaultTheme}>
+  <Card >
+    <H3>
+      Templates
+    </H3>
+    <P1 >
+        to see a list of available templates
+    </P1>
+    <CopyBox >[[3d6 - 18]]</CopyBox>
+  </Card>
+</ThemeProvider>
+  
+```
+
+### Live Playground
+
+Modify the text to see it change live.
+
+```js live
+<ThemeProvider theme={defaultTheme}>
+  <Card >
+    <H3>
+      Endurance
+    </H3>
+    <P1>Copy the roll for endurance! </P1>
+    <CopyBox >[[3d6 - 18]]</CopyBox>
+  </Card>
+</ThemeProvider>
+```

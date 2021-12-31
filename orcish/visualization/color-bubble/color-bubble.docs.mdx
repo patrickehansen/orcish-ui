@@ -1,0 +1,24 @@
+---
+description: A ColorBubble component.
+---
+
+import { ColorBubble } from './color-bubble';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme}>
+  <ColorBubble color={defaultTheme.colors.primary[0]} label="Primary color 1"/>
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme}>
+  <ColorBubble color={defaultTheme.colors.primary[0]} label="Primary color 1"/>
+</ThemeProvider>
+```

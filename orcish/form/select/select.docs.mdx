@@ -1,0 +1,48 @@
+---
+description: A Select component.
+---
+
+import { Select } from './select';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme} >
+  <Select 
+    name="Select"
+    options={[
+      {
+        label: '1: none',
+        value: 'none'
+      },
+      {
+        label: '2: Two',
+        value: 'two'
+      }
+    ]}
+  />
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme} >
+  <Select 
+    name="Select"
+    options={[
+      {
+        label: '1: none',
+        value: 'none'
+      },
+      {
+        label: '2: Two',
+        value: 'two'
+      }
+    ]}
+  />
+</ThemeProvider>
+```

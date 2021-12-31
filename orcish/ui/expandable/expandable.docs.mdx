@@ -1,0 +1,32 @@
+---
+description: A Expandable component.
+---
+
+import { Expandable } from './expandable';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme} >
+  <Expandable title="Test Expandable">
+    <div>
+      Hello world!
+    </div>
+  </Expandable>
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme} >
+  <Expandable title="Test Expandable">
+    <div>
+      Hello world!
+    </div>
+  </Expandable>
+</ThemeProvider>
+```

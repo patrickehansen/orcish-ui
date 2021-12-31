@@ -1,0 +1,24 @@
+---
+description: A Heading component.
+---
+
+import { Heading } from './heading';
+import { ThemeProvider} from 'styled-components';
+import { defaultTheme } from '@tiskahar/orcish.constants';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+```js
+<ThemeProvider theme={defaultTheme} >
+  <H1>hello world!</H1>
+</ThemeProvider>
+```
+
+### Render hello world!
+
+```js live
+<ThemeProvider theme={defaultTheme} >
+  <H1>hello world!</H1>
+</ThemeProvider>
+```

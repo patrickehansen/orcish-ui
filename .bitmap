@@ -9,35 +9,215 @@
  */
 
 {
-    "envs/my-react": {
+    "base/div": {
         "scope": "",
         "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/base/div"
+    },
+    "base/label": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/base/label"
+    },
+    "base/p": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/base/p"
+    },
+    "base/svg": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/base/svg"
+    },
+    "constants": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/constants"
+    },
+    "containers/box": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/containers/box"
+    },
+    "containers/card": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/containers/card"
+    },
+    "containers/div": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/containers/div"
+    },
+    "containers/flex": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/containers/flex"
+    },
+    "containers/grid": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/containers/grid"
+    },
+    "envs/my-react": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "demo/envs/my-react"
     },
-    "pages/welcome": {
-        "scope": "",
-        "version": "",
+    "form/check": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "demo/pages/welcome"
+        "rootDir": "orcish/form/check"
     },
-    "ui/card": {
+    "form/form": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "demo/ui/card"
+        "rootDir": "orcish/form/form"
     },
-    "ui/heading": {
+    "form/form-input": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "demo/ui/heading"
+        "rootDir": "orcish/form/form-input"
     },
-    "ui/text": {
+    "form/hidden-input": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/hidden-input"
+    },
+    "form/input": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/input"
+    },
+    "form/radio": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/radio"
+    },
+    "form/select": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/select"
+    },
+    "form/switch": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/switch"
+    },
+    "form/textarea": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/textarea"
+    },
+    "form/transfer-list": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/form/transfer-list"
+    },
+    "typography/heading": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/typography/heading"
+    },
+    "typography/italic": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "demo/ui/text"
+        "rootDir": "orcish/typography/italic"
+    },
+    "typography/label": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.4",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/typography/label"
+    },
+    "typography/paragraph": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/typography/paragraph"
+    },
+    "typography/strong": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/typography/strong"
+    },
+    "typography/text": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.5",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/typography/text"
+    },
+    "ui/accordion": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/accordion"
+    },
+    "ui/avatar": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/avatar"
+    },
+    "ui/button": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.8",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/button"
+    },
+    "ui/expandable": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.4",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/expandable"
+    },
+    "ui/slider": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/slider"
+    },
+    "ui/spinner": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/spinner"
+    },
+    "ui/tab-panel": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/ui/tab-panel"
+    },
+    "visualization/color-bubble": {
+        "scope": "tiskahar.orcish",
+        "version": "0.0.4",
+        "mainFile": "index.ts",
+        "rootDir": "orcish/visualization/color-bubble"
     },
     "$schema-version": "14.9.0"
 }
